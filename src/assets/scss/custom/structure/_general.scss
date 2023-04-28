@@ -1,0 +1,104 @@
+/* CSS */
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+
+.booking-container[_ngcontent-c3]>div[_ngcontent-c3] {
+  padding: 21px 20px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.booking-container>div {
+  padding: 21px 20px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.booking-container .booking-header .booking-title {
+  flex-grow: 1;
+  color: #203247;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+
+}
+
+
+.trr {
+  text-align: center;
+  border-bottom: none;
+  color: #0275FF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  background-color: #F9F9F6;
+}
+
+.title-value {
+  color: #203247;
+  font-weight: bold;
+  line-height: 19px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.title-info {
+  color: #9BAAB2;
+  font-size: 18px;
+}
+
+.price-span {
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: rgba(2, 117, 255, 0.1);
+}
+
+
+.monthly-price{
+ 
+  font-weight: bold;
+}
+
+.vehicle-price {
+  background-color: rgba(2,117,255,0.1);
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.vehicle-price .vehicle-price-value {
+  color: #27c1ec;
+}
+

@@ -1,0 +1,100 @@
+.profilest{
+    padding: 50px;
+}
+/* 
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
+
+  /* body::-webkit-scrollbar {
+    width: 7PX;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  } */
+
+  ::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #02a9b593;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #01304a14;
+  }
+
+.logbtn{
+    display: none !important;
+}
+.carsimg{
+  width: 200px;
+    padding: 10px;
+}
+
+.pagination > li {
+  display: inline-block;
+  padding-left: 0;
+}
+.pagination > li {
+  list-style: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  /* color: white; */
+  /* background:#7ea2af ; */
+}
+
+.pagination > li.active > a {
+  color: #fbb913;
+  background-color: #01304a;
+  border-color: #fbb913;
+}
+
+.fc .fc-view-harness {
+  flex-grow: 1;
+  position: relative;
+  height: 700px !important
+}
+.nav-justified > .nav-link, .nav-justified .nav-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px !important;
+  /* padding: 10px; */
+  margin: 3px !important;
+}
+li.nav-item :hover {
+  background: #01304a;
+  color: #fff;
+}
+.fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start {
+  padding: 5px !important;
+  font-size: 12px !important;
+  margin-right: 2px;
+  background: #01304a;
+  color: #fff;
+}
